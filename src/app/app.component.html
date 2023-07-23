@@ -1,0 +1,88 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary d-flex justify-content-between">
+    <a class="navbar-brand" href="#">D-Eatery</a>
+    <div>
+        <!-- <a class="text-white" href="https://github.com/ngdevelop-tech/angular-pdfmake-invoice-generator" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> -->
+    </div>
+</nav>
+<hr>
+<div class="search">
+    <input type="text" id="search" #searchVal>
+    <button (click)="search(searchVal.value)">search</button>
+                              
+</div>
+<form #invoiceForm="ngForm">
+    <div class="container-fluid pt-2 mb-5">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row col-md-12">
+                    
+                    <div class="col-md-4" *ngFor = "let item of MenuList;">
+                        <div class="card">
+                            <div style="padding:5px">
+                                <div class="row">
+                                <p class="card-text" style="margin-left:1rem">{{item.Name}} : </p>
+                                <label  [attr.id]="'ItemQtyprice_' + item.Id"></label>
+                                </div>
+                                <button (click)="Add(item)">+</button>
+                                <input type="number" [attr.id]="'ItemQty_' + item.Id" name="quantity" min="1" max="5" value="0">
+                                <button (click)="Minus(item)">-</button>
+                                <!-- <select style="float: left;">
+                                    <option>Select</option>
+                                    <option *ngFor="let qty of item.Price;let i = index" value="{{qty.Qty}}" >
+                                        {{qty.display}}
+                                    </option>
+                                </select> -->
+                                <button style="float: right;" (click)="AddItem(item)">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                
+            </div>
+            <div class="col-md-4">
+
+                    <div>
+
+                        <table class="my-table">
+                            <thead class="my-table headers">
+                              <tr>
+                                <th>S.No</th>
+                                <th>Item</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody class="my-table body" *ngFor="let order of OrderList;let i = index" >
+                                <tr>
+                                    <td>{{i+1}}</td>
+                                    <td>{{order.MenuName}}</td>
+                                    <td>{{order.qty}}</td>
+                                    <td>{{order.price}}</td>
+                                    <td><button (click)="RemoveItem(i,order)">Remove</button></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                    </div>
+
+                    <div class="total" *ngIf="OrderList.length>0">
+                        <label>discount</label>
+                        <label style="margin-left:1rem"><input type="number" #discount></label>
+                        <button type="button" class="btn btn-link" (click)="applydiscount(discount.value)">Apply Coupon</button>
+                        <hr>
+                        <p *ngIf="_discount==0">Total  :<label style="margin-left:2rem">{{_total}}</label></p>
+                        <p *ngIf="_discount>0"> Total 
+                            <label style="text-decoration: line-through;margin-left:2rem">{{(_total+_discount)}}</label>
+                            <label style="margin-left:3rem;font-size: large;"><b>{{_total}}</b></label>
+                        </p>
+                        
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"
+                        (click)="generateBill()">Print Invoice</button>
+            </div>
+        </div>
+    </div>
+</form>
+<footer class="fixed-bottom">
+
+</footer>
