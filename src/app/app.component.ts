@@ -224,11 +224,13 @@ export class AppComponent {
   generateBill(){
     // playground requires you to assign document definition to a variable called dd
 var _tableBody=[];
-var date = new Date();
+//var date = new Date();
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var today  = new Date();
 // get the date as a string
-var n = date.toDateString();
+var n = today.toLocaleString();
 // get the time as a string
-var time = date.toLocaleTimeString();
+var time = today.toLocaleTimeString();
 var _header=[{text: 'Item', style: 'orderDetails'}, 
              {text: 'Qty', style: 'orderDetails'}, 
              {text: 'Price', style: 'orderDetails'}
@@ -263,7 +265,7 @@ var dd = {
 			table: {
 				body: [
 					['OrderId : '+ordrId,  'Date : '+n],
-          ['               ',  'Time : '+time]
+          // ['               ',  'Time : '+time]
 				]
 			},
 			layout: 'noBorders'
@@ -276,7 +278,7 @@ var dd = {
 		{
 			style: 'tableExample',
 			table: {
-			    widths: [60, '*','*'],
+			    widths: [70, '*','*'],
 				  body: _tableBody
 			},
 			layout: 'noBorders'
@@ -343,12 +345,12 @@ var dd = {
 			italics: true
 		},
 		small: {
-			fontSize: 8
+			fontSize: 6
 		}
 	},
 	
-		pageSize: 'A8',
-		pageMargins: [ 10, 20, 10, 10 ]
+		pageSize: 'A7',
+		pageMargins: [ 10, 5, 10, 0 ]
 	
 }
 pdfMake.createPdf(dd).print();   
