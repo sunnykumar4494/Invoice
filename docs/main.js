@@ -18,10 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 class GetDataService {
     constructor(http) {
         this.http = http;
+        this.baseurl = "https://sunnykumar4494.github.io/Invoice";
         this.url = '/assets/MenuList.json';
     }
     getMenus() {
-        return this.http.get(this.url);
+        return this.http.get(this.baseurl + this.url);
     }
 }
 GetDataService.ɵfac = function GetDataService_Factory(t) { return new (t || GetDataService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpClient)); };
