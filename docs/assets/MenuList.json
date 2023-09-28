@@ -1,0 +1,65 @@
+[
+    {
+        "Id":1,
+        "Name":"Shezwan Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":70
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":120
+            }
+            ]
+
+    },
+    {
+        "Id":2,
+        "Name":"Hakka Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":70
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":120
+            }
+            ]
+
+    },
+    {
+        "Id":3,
+        "Name":"Chilli Garlic Noodles",
+        "Price":[
+                    {
+                            "Qty":0.5,
+                            "display":"1/2",
+                            "Price":80
+                    },
+                    {
+                            "Qty":1,
+                            "display":"1",
+                            "Price":140
+                    }
+            ]
+
+    },
+    {
+        "Id":4,
+        "Name":"Chicken Biryani",
+        "Price":[
+                    {
+                            "Qty":1,
+                            "display":"1",
+                            "Price":130
+                    }
+            ]
+
+    }
+]
