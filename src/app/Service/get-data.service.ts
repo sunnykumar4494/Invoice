@@ -5,7 +5,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GetDataService {
-  baseurl:string="https://sunnykumar4494.github.io/Invoice"
+  // baseurl:string="https://sunnykumar4494.github.io/Invoice"
+  baseurl:string="http://localhost:4200"
   url: string = '/assets/MenuList.json';
   
   

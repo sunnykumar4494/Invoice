@@ -24,7 +24,7 @@
                                 <label  [attr.id]="'ItemQtyprice_' + item.Id"></label>
                                 </div>
                                 <button (click)="Add(item)">+</button>
-                                <input type="number" [attr.id]="'ItemQty_' + item.Id" name="quantity" min="1" max="5" value="0">
+                                <input type="number" [attr.id]="'ItemQty_' + item.Id" (input)="valuechange($event,item)" name="quantity" min="1" max="5" value="0">
                                 <button (click)="Minus(item)">-</button>
                                 <!-- <select style="float: left;">
                                     <option>Select</option>
@@ -72,8 +72,8 @@
                         <hr>
                         <p *ngIf="_discount==0">Total  :<label style="margin-left:2rem">{{_total}}</label></p>
                         <p *ngIf="_discount>0"> Total 
-                            <label style="text-decoration: line-through;margin-left:2rem">{{(_total+_discount)}}</label>
-                            <label style="margin-left:3rem;font-size: large;"><b>{{_total}}</b></label>
+                            <label style="text-decoration: line-through;margin-left:2rem">{{(_total)}}</label>
+                            <label style="margin-left:3rem;font-size: large;"><b>{{_totalSum}}</b></label>
                         </p>
                         
                     </div>

@@ -41,8 +41,13 @@ export class AppComponent {
   MenuList:any;
   MasterMenuList:any;
   _total:number=0;
+  _totalSum:number=0;
   _discount:number=0;
   OrderList:Order[]=[];
+
+  valuechange(evt){
+    console.log(evt);
+  }
   
   generatePDF(action = 'open') {
     let docDefinition = {
@@ -150,7 +155,8 @@ export class AppComponent {
   }
   applydiscount(discount){
     this._discount=parseInt(discount);
-    this._total=this._total-this._discount;
+    //this._totalSum
+    this._totalSum=this._total-this._discount;
   }
   AddItem(item){
     let _id="ItemQtyprice_"+item.Id;
@@ -161,8 +167,9 @@ export class AppComponent {
     let _intplate=Math.floor(_itmqty* 10 /10);
     let _halfplate=_itmqty%1;
     let totalSum=0;
-    if(_halfPrice==(null || undefined))
-     totalSum=(_fullPrice*_intplate);
+    if(_halfplate==0 || (_halfPrice==null || _halfPrice==undefined)){
+      totalSum=(_fullPrice*_intplate);
+    }
      else
      totalSum=(_halfPrice*1+_fullPrice*_intplate);
     (<HTMLInputElement>document.getElementById(_id)).innerText=totalSum.toLocaleString();
@@ -257,7 +264,7 @@ var dd = {
 		},
 		
 	    {
-			text: '---------------------------------------------------',
+			text: '-------------------------------------------',
 			style: 'subheader',
 		},
 		{
@@ -272,28 +279,31 @@ var dd = {
 		},
 	
 		 {
-			text: '-------------------------------------------------',
+			text: '-------------------------------------------',
 			style: 'subheader',
 		},
 		{
 			style: 'tableExample',
 			table: {
-			    widths: [70, '*','*'],
+			    widths: [60, '*','*'],
 				  body: _tableBody
 			},
 			layout: 'noBorders'
 		},
 		{
-			text: '--------------------------------------------------',
+			text: '--------------------------------------------',
 			style: 'subheader',
 		},
-   
+    {
+			text: 'Total : '+this._total,
+			style: 'total',
+		},
     {
 			text: 'Discount  : '+this._discount,
 			style: 'discount'
 		},
 		{
-			text: 'Total : '+this._total,
+			text: 'Net Payable : '+this._totalSum,
 			style: 'total',
 		},
 		{
@@ -349,8 +359,9 @@ var dd = {
 		}
 	},
 	
-		pageSize: 'A7',
-		pageMargins: [ 10, 5, 10, 0 ]
+		// pageSize: 'A8',
+    pageSize: {height:800, width: 120},
+		pageMargins: [ 6, 5, 0, 0 ]
 	
 }
 pdfMake.createPdf(dd).print();   
