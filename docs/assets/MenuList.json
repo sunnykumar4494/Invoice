@@ -2,6 +2,8 @@
     {
         "Id":1,
         "Name":"Shezwan Noodles",
+        "ItemCode":"SN",
+        "Category":"Noodles",
         "Price":[
             {
                     "Qty":0.5,
@@ -16,9 +18,130 @@
             ]
 
     },
+    
     {
         "Id":2,
+        "Name":"Egg Shezwan Noodles",
+        "ItemCode":"SN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":100
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":170
+            }
+            ]
+
+    },
+    
+    {
+        "Id":3,
+        "Name":"Chicken Shezwan Noodles",
+        "ItemCode":"CSN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":110
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":180
+            }
+            ]
+
+    },
+    
+    {
+        "Id":4,
+        "Name":"Paneer Shezwan Noodles",
+        "ItemCode":"PSN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":110
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":180
+            }
+            ]
+
+    },
+
+    {
+        "Id":5,
+        "Name":"Egg Hakka Noodles",
+        "ItemCode":"EHN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":100
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":170
+            }
+            ]
+
+    },
+    
+    {
+        "Id":6,
+        "Name":"Chicken Hakka Noodles",
+        "ItemCode":"CHN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":110
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":180
+            }
+            ]
+
+    },
+    
+    {
+        "Id":7,
+        "Name":"Paneer Hakka Noodles",
+        "ItemCode":"PHN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":110
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":180
+            }
+            ]
+
+    },
+    {
+        "Id":8,
         "Name":"Hakka Noodles",
+        "ItemCode":"HN",
         "Price":[
             {
                     "Qty":0.5,
@@ -34,8 +157,91 @@
 
     },
     {
-        "Id":3,
-        "Name":"Chilli Garlic Noodles",
+        "Id":9,
+        "Name":"Chilly Garlic Noodles",
+        "ItemCode":"CGN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":80
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":140
+            }
+            ]
+
+    },
+    
+    {
+        "Id":10,
+        "Name":"Egg Chilly Garlic Noodles",
+        "ItemCode":"ECGN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":110
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":190
+            }
+            ]
+
+    },
+    
+    {
+        "Id":11,
+        "Name":"Chicken Garlic Noodles",
+        "ItemCode":"CSN",
+        "Category":"Noodles",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":120
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":190
+            }
+            ]
+
+    },
+    
+    {
+        "Id":12,
+        "Name":"Paneer Chilly Garlic Noodles",
+        "Category":"Noodles",
+        "ItemCode":"PCGN",
+        "Price":[
+            {
+                    "Qty":0.5,
+                    "display":"1/2",
+                    "Price":120
+            },
+            {
+                    "Qty":1,
+                    "display":"1",
+                    "Price":190
+            }
+            ]
+
+    },
+
+   
+    {
+        "Id":13,
+        "Name":"Paneer Chilli",
+        "Category":"Starters",
+        "ItemCode":"PC",
         "Price":[
                     {
                             "Qty":0.5,
@@ -43,22 +249,1353 @@
                             "Price":80
                     },
                     {
-                            "Qty":1,
-                            "display":"1",
-                            "Price":140
-                    }
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
             ]
 
     },
     {
-        "Id":4,
-        "Name":"Chicken Biryani",
+        "Id":14,
+        "Name":"Paneer 65",
+        "Category":"Starters",
+        "ItemCode":"P65",
         "Price":[
                     {
-                            "Qty":1,
-                            "display":"1",
-                            "Price":130
-                    }
+                            "Qty":0.5,
+                            "display":"1/2",
+                            "Price":90
+                    },
+                    {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":160
+                }
+            ]
+
+    },
+    {
+        "Id":15,
+        "Name":"Paneer Salt & Peppers",
+        "Category":"Starters",
+        "ItemCode":"PSP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    }
+    ,
+    {
+        "Id":16,
+        "Name":"Mushroom Chilli",
+        "Category":"Starters",
+        "ItemCode":"MC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":150
+                }
+            ]
+
+    },
+    {
+        "Id":17,
+        "Name":"BabyCorn Chilli",
+        "Category":"Starters",
+        "ItemCode":"BC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":160
+                }
+            ]
+
+    },
+    {
+        "Id":18,
+        "Name":"Babycorn Kurkure",
+        "Category":"Starters",
+        "ItemCode":"BK",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":170
+                }
+            ]
+
+    },
+    {
+        "Id":19,
+        "Name":"Veg Manchurian",
+        "Category":"Starters",
+        "ItemCode":"VM",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":70
+                },
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":20,
+        "Name":"Chicken Chilli",
+        "Category":"Starters",
+        "ItemCode":"CC",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":90
+                },
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":160
+                }
+            ]
+
+    },
+    {
+        "Id":21,
+        "Name":"Chicken Chilli Boneless",
+        "Category":"Starters",
+        "ItemCode":"CCB",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":100
+                },
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":180
+                }
+            ]
+
+    },
+    {
+        "Id":22,
+        "Name":"Chicken Chilli Lolipop",
+        "Category":"Starters",
+        "ItemCode":"CCL",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":190
+                }
+            ]
+
+    },
+    {
+        "Id":23,
+        "Name":"Veg Burger",
+        "Category":"Burger",
+        "ItemCode":"VBU",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":40
+                }
+            ]
+
+    },
+    {
+        "Id":24,
+        "Name":"AAloo Tikki Burger",
+        "Category":"Burger",
+        "ItemCode":"ATB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":50
+                }
+            ]
+
+    },
+    {
+        "Id":25,
+        "Name":"Veg Mexican Burger",
+        "Category":"Burger",
+        "ItemCode":"VMB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":26,
+        "Name":"Paneer Tikka Burger",
+        "Category":"Burger",
+        "ItemCode":"PTB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":27,
+        "Name":"Paneer Tikka Burger",
+        "Category":"Burger",
+        "ItemCode":"PTB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    }
+    ,
+    {
+        "Id":28,
+        "Name":"Chicken Patty Burger",
+        "Category":"Burger",
+        "ItemCode":"PTB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":29,
+        "Name":"Special Cheese Burger",
+        "Category":"Burger",
+        "ItemCode":"SCHB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":30,
+        "Name":"Special Chicken  Burger",
+        "Category":"Burger",
+        "ItemCode":"SCKB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":31,
+        "Name":"White Sauce Pasta",
+        "Category":"Pasta",
+        "ItemCode":"WSP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":32,
+        "Name":"Red Sauce Pasta",
+        "Category":"Pasta",
+        "ItemCode":"RSP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":33,
+        "Name":"Salty Fries",
+        "Category":"Fries",
+        "ItemCode":"SF",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":34,
+        "Name":"Masala Fries",
+        "Category":"Fries",
+        "ItemCode":"MF",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":34,
+        "Name":"Peri Peri Fries",
+        "Category":"Fries",
+        "ItemCode":"PPF",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":35,
+        "Name":"Mexican Veg Fries",
+        "Category":"Fries",
+        "ItemCode":"MVF",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":36,
+        "Name":"Veg Wrap",
+        "Category":"Wrap",
+        "ItemCode":"VW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":40
+                }
+            ]
+
+    },
+    {
+        "Id":37,
+        "Name":"Paneer Wrap",
+        "Category":"Wrap",
+        "ItemCode":"PW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":38,
+        "Name":"Egg Wrap (Single Egg)",
+        "Category":"Wrap",
+        "ItemCode":"ESW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":38,
+        "Name":"Egg Wrap (Double Egg)",
+        "Category":"Wrap",
+        "ItemCode":"EDW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":39,
+        "Name":"Chicken",
+        "Category":"Wrap",
+        "ItemCode":"CW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":40,
+        "Name":"Special Veg Wrap",
+        "Category":"Wrap",
+        "ItemCode":"SVW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":41,
+        "Name":"Special Paneer Wrap",
+        "Category":"Wrap",
+        "ItemCode":"SPW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":41,
+        "Name":"Special Chicken Wrap",
+        "Category":"Wrap",
+        "ItemCode":"SCW",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":42,
+        "Name":"Hot Coffee",
+        "Category":"Beverages",
+        "ItemCode":"HC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":35
+                }
+            ]
+
+    },
+    {
+        "Id":43,
+        "Name":"Black Coffee",
+        "Category":"Beverages",
+        "ItemCode":"BC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":30
+                }
+            ]
+
+    },
+    {
+        "Id":44,
+        "Name":"Expresso Coffee",
+        "Category":"Beverages",
+        "ItemCode":"EC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":50
+                }
+            ]
+
+    },
+    {
+        "Id":45,
+        "Name":"Cold Coffee",
+        "Category":"Beverages",
+        "ItemCode":"CC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":46,
+        "Name":"Hazlenut Coffee",
+        "Category":"Beverages",
+        "ItemCode":"HC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":47,
+        "Name":"Vanilla Shake",
+        "Category":"Beverages",
+        "ItemCode":"VS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":48,
+        "Name":"Butter Scotch Shake",
+        "Category":"Beverages",
+        "ItemCode":"BSS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":49,
+        "Name":"Strawberry Shake",
+        "Category":"Beverages",
+        "ItemCode":"SS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":50,
+        "Name":"Black Current Shake",
+        "Category":"Beverages",
+        "ItemCode":"BCS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":51,
+        "Name":"Choclate Shake",
+        "Category":"Beverages",
+        "ItemCode":"CS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":52,
+        "Name":"KitKat Shake",
+        "Category":"Beverages",
+        "ItemCode":"KS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":53,
+        "Name":"Oreo Shake",
+        "Category":"Beverages",
+        "ItemCode":"OS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":54,
+        "Name":"Brownie Shake",
+        "Category":"Beverages",
+        "ItemCode":"BS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
+            ]
+
+    },
+    {
+        "Id":55,
+        "Name":"Kesar Badam Shake",
+        "Category":"Beverages",
+        "ItemCode":"KBS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":56,
+        "Name":"Blue Berry Shake",
+        "Category":"Beverages",
+        "ItemCode":"BBS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":57,
+        "Name":"Virgin Mojito",
+        "Category":"Mocktail",
+        "ItemCode":"VM",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":58,
+        "Name":"Mint Mojito",
+        "Category":"Mocktail",
+        "ItemCode":"MM",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":59,
+        "Name":"Blue Lagoon",
+        "Category":"Mocktail",
+        "ItemCode":"BL",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":60,
+        "Name":"Green Apple",
+        "Category":"Mocktail",
+        "ItemCode":"GA",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":61,
+        "Name":"Fresh Lime Soda",
+        "Category":"Mocktail",
+        "ItemCode":"FLS",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":50
+                }
+            ]
+
+    },
+    {
+        "Id":62,
+        "Name":"Watermelon ",
+        "Category":"Mocktail",
+        "ItemCode":"WM",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":63,
+        "Name":"Cold Drink",
+        "Category":"Mocktail",
+        "ItemCode":"CD",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":35
+                }
+            ]
+
+    },
+    {
+        "Id":64,
+        "Name":"Hot Gulab Jamun",
+        "Category":"Desserts",
+        "ItemCode":"HGJ",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":40
+                }
+            ]
+
+    },
+    {
+        "Id":65,
+        "Name":"Gulab Jamun With Ice Cream",
+        "Category":"Desserts",
+        "ItemCode":"GJIC",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":66,
+        "Name":"Strawberry/Vanilla",
+        "Category":"Desserts",
+        "ItemCode":"SVI",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":60
+                }
+            ]
+
+    },
+    {
+        "Id":67,
+        "Name":"Butter Scotch",
+        "Category":"Desserts",
+        "ItemCode":"BSI",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":90
+                }
+            ]
+
+    },
+    {
+        "Id":68,
+        "Name":"Choclate",
+        "Category":"Desserts",
+        "ItemCode":"CI",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":69,
+        "Name":"Tawa Roti",
+        "Category":"Rice&Bread",
+        "ItemCode":"TR",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":10
+                }
+            ]
+
+    },
+    {
+        "Id":70,
+        "Name":"Butter Tawa Roti",
+        "Category":"Rice&Bread",
+        "ItemCode":"BTR",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":15
+                }
+            ]
+
+    },
+    {
+        "Id":70,
+        "Name":"Laccha Paratha",
+        "Category":"Rice&Bread",
+        "ItemCode":"LP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":30
+                }
+            ]
+
+    },
+    {
+        "Id":71,
+        "Name":"Steam Rice",
+        "Category":"Rice&Bread",
+        "ItemCode":"SR",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":70
+                }
+            ]
+
+    },
+    {
+        "Id":72,
+        "Name":"Jeera Roti",
+        "Category":"Rice&Bread",
+        "ItemCode":"JR",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":73,
+        "Name":"Mutter Pulao",
+        "Category":"Rice&Bread",
+        "ItemCode":"MP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":74,
+        "Name":"Paneer Mutter Pulao",
+        "Category":"Rice&Bread",
+        "ItemCode":"PMP",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":120
+                }
+            ]
+
+    },
+    {
+        "Id":75,
+        "Name":"Chicken Hyderabadi Biryani",
+        "Category":"Biryani",
+        "ItemCode":"CHB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":130
+                }
+            ]
+
+    },
+    {
+        "Id":76,
+        "Name":"SPL Chicken Hyderabadi Biryani",
+        "Category":"Biryani",
+        "ItemCode":"SCHB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":170
+                }
+            ]
+
+    },
+    {
+        "Id":77,
+        "Name":"Chicken Kolata Biryani",
+        "Category":"Biryani",
+        "ItemCode":"CKB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
+            ]
+
+    },
+    {
+        "Id":75,
+        "Name":"Special Chicken Kolakata Biryani",
+        "Category":"Biryani",
+        "ItemCode":"SCKB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":190
+                }
+            ]
+
+    },
+    {
+        "Id":76,
+        "Name":"Mutton Hyderabadi Biryani",
+        "Category":"Biryani",
+        "ItemCode":"MHB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":220
+                }
+            ]
+
+    },
+    {
+        "Id":77,
+        "Name":"Special Mutton Hyderabadi Biryani",
+        "Category":"Biryani",
+        "ItemCode":"SMHB",
+        "Price":[
+                {
+                        "Qty":1,
+                        "display":"1",
+                        "Price":280
+                }
+            ]
+
+    },
+    {
+        "Id":78,
+        "Name":"Mix Veg",
+        "Category":"Main Course",
+        "ItemCode":"MV",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":80
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
+            ]
+
+    },
+    {
+        "Id":79,
+        "Name":"Aalo Jeera",
+        "Category":"Main Course",
+        "ItemCode":"AJ",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":70
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":130
+                }
+            ]
+
+    },
+    {
+        "Id":79,
+        "Name":"Kadhai Paneer",
+        "Category":"Main Course",
+        "ItemCode":"KP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":100
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":180
+                }
+            ]
+
+    },
+    {
+        "Id":80,
+        "Name":"Handi Paneer",
+        "Category":"Main Course",
+        "ItemCode":"HP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":80
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":180
+                }
+            ]
+
+    },
+    {
+        "Id":81,
+        "Name":"Mutter Paneer",
+        "Category":"Main Course",
+        "ItemCode":"MP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":80
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
+            ]
+
+    },
+    {
+        "Id":82,
+        "Name":"Paneer Do Pyaza",
+        "Category":"Main Course",
+        "ItemCode":"PDP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":110
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":200
+                }
+            ]
+
+    },
+    {
+        "Id":83,
+        "Name":"Paneer Butter Masala",
+        "Category":"Main Course",
+        "ItemCode":"PBM",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":110
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":200
+                }
+            ]
+
+    },
+    {
+        "Id":84,
+        "Name":"Mushroom Mutter",
+        "Category":"Main Course",
+        "ItemCode":"MM",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":120
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":220
+                }
+            ]
+
+    },
+    {
+        "Id":85,
+        "Name":"Mushroom Masala",
+        "Category":"Main Course",
+        "ItemCode":"MMS",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":110
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":200
+                }
+            ]
+
+    },
+    {
+        "Id":86,
+        "Name":"Dal Tadka",
+        "Category":"Main Course",
+        "ItemCode":"DT",
+        "Price":[{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":100
+                }
+            ]
+
+    },
+    {
+        "Id":87,
+        "Name":"Plain Dal",
+        "Category":"Main Course",
+        "ItemCode":"PD",
+        "Price":[{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":80
+                }
+            ]
+
+    },
+    {
+        "Id":88,
+        "Name":"Seasonal Veg",
+        "Category":"Main Course",
+        "ItemCode":"SV",
+        "Price":[{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":140
+                }
+            ]
+
+    },
+    {
+        "Id":89,
+        "Name":"Chicken Curry",
+        "Category":"Main Course",
+        "ItemCode":"CHKCRY",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":120
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":200
+                }
+            ]
+
+    },
+    {
+        "Id":90,
+        "Name":"Chicken Do Pyaza",
+        "Category":"Main Course",
+        "ItemCode":"CDP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":150
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":280
+                }
+            ]
+
+    },
+    {
+        "Id":91,
+        "Name":"Chicken Kadhai",
+        "Category":"Main Course",
+        "ItemCode":"CHKKDH",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":140
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":250
+                }
+            ]
+
+    },
+    {
+        "Id":92,
+        "Name":"Chicken Butter Masala",
+        "Category":"Main Course",
+        "ItemCode":"CBM",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":150
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":250
+                }
+            ]
+
+    },
+    {
+        "Id":93,
+        "Name":"Mutton Handi",
+        "Category":"Main Course",
+        "ItemCode":"MH",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":200
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":360
+                }
+            ]
+
+    },
+    {
+        "Id":94,
+        "Name":"Mutton Kadhai",
+        "Category":"Main Course",
+        "ItemCode":"MK",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":240
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":360
+                }
+            ]
+
+    },
+    {
+        "Id":95,
+        "Name":"Mutton Do Pyaza",
+        "Category":"Main Course",
+        "ItemCode":"MDP",
+        "Price":[
+                {
+                        "Qty":0.5,
+                        "display":"1/2",
+                        "Price":240
+                },{
+                        "Qty":1,
+                        "display":"1",
+                        "Price":360
+                }
             ]
 
     }
